@@ -10,7 +10,7 @@
 | 1 | VM and Port Forwarding | Implementation of virtual machine networking and port forwarding techniques to enable communication between different network segments. | [Project PDF](Project1/Project%201.%20VM%2C%20Port%20Forwarding.pdf) |
 | 2 | L2 Network Setting | Configuration of Layer 2 network settings including VLANs, trunking, and switching protocols. | [Spec](https://hackmd.io/@SiriusKoan/HJrjl4l1R)<br>[PKA File](Project2/HW2_111550093.pka) |
 | 3 | OSPF | Implementation of Open Shortest Path First (OSPF) routing protocol in a multi-area network environment. | [Spec](https://hackmd.io/@Sean64/CCNA-OSPF-Project)<br>[PKA File](Project3/111550093.pka) |
-| 4 | BGP and Advanced Routing | Configuration of Border Gateway Protocol (BGP) and implementation of advanced routing techniques for internet-scale routing. | [Spec](Phttps://hackmd.io/bKgpAW_IQdyj4Rl04Y_Zpg)<br>[Written HW](Project4/HW4_111550093.pdf)<br>[PKA File](Project4/HW4_111550093.pka) |
+| 4 | BGP and Advanced Routing | Configuration of Border Gateway Protocol (BGP) and implementation of advanced routing techniques for internet-scale routing. | [Spec](https://hackmd.io/bKgpAW_IQdyj4Rl04Y_Zpg)<br>[PKA File](Project4/HW4_111550093.pka) |
 
 ## Labs
 
