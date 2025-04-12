@@ -16,18 +16,17 @@
 
 | Lab | Title | Description |
 |-----|-------|-------------|
-| 1 | IP Information and Network Tools | • Understanding IP addressing and subnet concepts<br>• Using common network diagnostic tools like ping, traceroute, and ipconfig/ifconfig |
-| 2 | VM NIC Mode and Port Forwarding | • Working with virtual machine network interfaces<br>• Configuring port forwarding for service accessibility |
-| 3 | Basic Network Configuration | • Setting up basic network parameters<br>• Configuring IP addresses, subnet masks, and default gateways |
-| 4 | Network Address Translation | • Implementing NAT for IP address conservation<br>• Configuring static and dynamic NAT |
-| 5 | Basic Routing | • Understanding routing concepts<br>• Configuring static routes and default routes |
-| 6 | Access Control Lists | • Implementing basic and extended ACLs<br>• Filtering network traffic based on various criteria |
-| 7 | VLAN Configuration | • Setting up Virtual LANs<br>• Configuring inter-VLAN routing |
-| 10 | Network Protocols | • Working with various network protocols<br>• Understanding protocol interaction and implementation |
-| 11 | IPv6 Fundamentals | • Understanding IPv6 addressing and subnetting<br>• Configuring dual-stack environments |
-| 12 | Wireless Networking | • Setting up wireless networks<br>• Configuring wireless security protocols |
-| 13 | Network Security Essentials | • Implementing basic network security measures<br>• Understanding security best practices |
-| 14 | Advanced Network Configuration | • Integrating multiple network concepts<br>• Troubleshooting complex network issues |
+| 1 | IP Information and Network Tools | • Understanding IP addressing, subnetting, and network classes<br>• Using diagnostic tools like ping, traceroute, ipconfig/ifconfig, and Wireshark |
+| 2 | VM NIC Mode and Port Forwarding | • Configuring virtual machine network interface modes (NAT, Bridge, Host-only)<br>• Setting up port forwarding for service accessibility across networks |
+| 3 | IOS and Packet Tracer | • Introduction to Cisco IOS command line interface<br>• Learning Packet Tracer interface for network simulation |
+| 4 | VLAN | • Creating and configuring Virtual LANs to segment broadcast domains<br>• Setting up inter-VLAN routing with router-on-a-stick |
+| 5 | STP | • Implementing Spanning Tree Protocol to prevent Layer 2 loops<br>• Configuring STP priority, path cost, and port states |
+| 6 | Static Route, RIP | • Setting up static routes for predictable traffic paths<br>• Configuring Routing Information Protocol (RIP) for dynamic routing |
+| 10 | Single-Area OSPF | • Configuring Open Shortest Path First protocol in a single area<br>• Setting up OSPF adjacencies, DR/BDR election, and route propagation |
+| 11 | Multi-Area OSPF | • Designing and implementing multi-area OSPF network architectures<br>• Configuring area types, route summarization, and route filtering |
+| 12 | LACP, FHRP | • Setting up Link Aggregation Control Protocol for bandwidth aggregation<br>• Implementing First Hop Redundancy Protocols (HSRP, VRRP, GLBP) |
+| 13 | AAA, ACL | • Configuring Authentication, Authorization, and Accounting<br>• Implementing standard and extended Access Control Lists for traffic filtering |
+| 14 | VyOS, Tunnel, Cable | • Working with VyOS open-source router platform<br>• Configuring GRE tunnels for network traffic encapsulation |
 
 ## Tools Used
 
@@ -35,11 +34,15 @@
 |------|-------------|---------|
 | Packet Tracer | Cisco's network simulation tool | Creating and testing network topologies without physical hardware |
 | Virtual Machines | Virtualization software | Testing and deployment of network configurations in isolated environments |
+| VyOS | Open-source network operating system | Building and managing network infrastructure with Linux-based router OS |
+| Wireshark | Network protocol analyzer | Capturing and analyzing network traffic for troubleshooting and understanding |
 
 ## Skills Developed
 - Network design and implementation
 - Troubleshooting network connectivity issues
 - Routing protocol configuration and optimization
 - Network security implementation
-- IPv4 and IPv6 addressing and subnetting
+- IPv4 addressing and subnetting
 - Virtual networking environments setup
+- Layer 2 and Layer 3 switching technologies
+- Redundancy protocols and high availability solutions
